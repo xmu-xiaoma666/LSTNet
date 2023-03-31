@@ -1,6 +1,6 @@
 # Towards Local Visual Modeling for Image Captioning
 
-Official Code for "Towards Local Visual Modeling for Image Captioning" 
+Official Code for ["Towards Local Visual Modeling for Image Captioning"](https://www.sciencedirect.com/science/article/abs/pii/S0031320323001218) 
 
 ![](images/LSTNet.png)
 
@@ -26,3 +26,18 @@ python eval.py --batch_size 50 --exp_name LSTNet --features_path /home/data/coco
 ## Visualization
 
 ![](images/attention.png)
+
+
+## Citation
+
+```
+@article{ma2023towards,
+  title={Towards local visual modeling for image captioning},
+  author={Ma, Yiwei and Ji, Jiayi and Sun, Xiaoshuai and Zhou, Yiyi and Ji, Rongrong},
+  journal={Pattern Recognition},
+  volume={138},
+  pages={109420},
+  year={2023},
+  publisher={Elsevier}
+}
+```
